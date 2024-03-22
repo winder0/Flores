@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tus flores amarillas</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f7f7f7;
+        }
+        .flower {
+            width: 150px;
+            height: auto;
+            position: relative;
+            margin-right: 20px;
+            margin-left: 20px;
+            animation: swing 2s infinite alternate ease-in-out;
+        }
+        .stem {
+            background-color: #2ecc71;
+            width: 10px;
+            height: 300px; 
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 5px 5px 0 0;
+            z-index: -1; 
+        }
+        .petal {
+            position: absolute;
+            width: 50px;
+            height: 100px;
+            background-color: #f1c40f;
+            border-radius: 50%;
+            transform-origin: bottom center;
+        }
+        .petal:nth-child(1) {
+            transform: rotate(15deg);
+            top: -30px;
+            left: 50%;
+            margin-left: -25px;
+        }
+        .petal:nth-child(2) {
+            transform: rotate(45deg);
+            top: -30px;
+            left: 50%;
+            margin-left: -25px;
+        }
+        .petal:nth-child(3) {
+            transform: rotate(75deg);
+            top: -30px;
+            left: 50%;
+            margin-left: -25px;
+        }
+        .petal:nth-child(4) {
+            transform: rotate(105deg);
+            top: -30px;
+            left: 50%;
+            margin-left: -25px;
+        }
+        .petal:nth-child(5) {
+            transform: rotate(135deg);
+            top: -30px;
+            left: 50%;
+            margin-left: -25px;
+        }
+        .petal:nth-child(6) {
+            transform: rotate(165deg);
+            top: -30px;
+            left: 50%;
+            margin-left: -25px;
+        }
+        .petal:nth-child(7) {
+            transform: rotate(195deg);
+            top: -30px;
+            left: 50%;
+            margin-left: -25px;
+        }
+        .petal:nth-child(8) {
+            transform: rotate(225deg);
+            top: -30px;
+            left: 50%;
+            margin-left: -25px;
+        }
+        .petal:nth-child(9) {
+            transform: rotate(255deg);
+            top: -30px;
+            left: 50%;
+            margin-left: -25px;
+        }
+        .petal:nth-child(10) {
+            transform: rotate(285deg);
+            top: -30px;
+            left: 50%;
+            margin-left: -25px;
+        }
+        .petal:nth-child(11) {
+            transform: rotate(315deg);
+            top: -30px;
+            left: 50%;
+            margin-left: -25px;
+        }
+        .petal:nth-child(12) {
+            transform: rotate(345deg);
+            top: -30px;
+            left: 50%;
+            margin-left: -25px;
+        }
+        .center {
+            width: 50px;
+            height: 50px;
+            background-color: #e74c3c;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 80%); 
+            z-index: 1; 
+        }
+        @keyframes swing {
+            0% {
+                transform: rotate(0deg);
+            }
+            50% {
+                transform: rotate(5deg);
+            }
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="flower">
+        <div class="stem"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="center"></div>
+    </div>
+    <div class="flower">
+        <div class="stem"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="center"></div>
+    </div>
+    <div class="flower">
+        <div class="stem"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="center"></div>
+    </div>
+</body>
+</html>
